@@ -1,0 +1,103 @@
+# Personal Website - Cursor Rules
+
+## Project Overview
+This is a personal portfolio website designed to showcase product taste and design sensibility to recruiters and potential employers.
+
+## Design Philosophy
+Follow a **minimalist, refined aesthetic** inspired by Linear and Harvey.AI:
+- Clean, spacious layouts with generous whitespace
+- Subtle, sophisticated animations and transitions
+- Premium feel through restraint and attention to detail
+- Focus on typography hierarchy and readability
+- Muted, professional color palette
+
+## Design Principles
+
+### Visual Design
+- **Typography**: Use clean, modern sans-serif fonts (e.g., Inter, SF Pro, or similar). Prioritize readability and hierarchy
+- **Color Palette**: 
+  - Monochromatic base with subtle grays
+  - Single accent color used sparingly for emphasis
+  - High contrast for text (near-black on near-white or vice versa)
+  - Avoid bright, saturated colors
+- **Spacing**: Generous margins and padding. Use consistent spacing scale (e.g., 4px, 8px, 16px, 24px, 32px, 48px, 64px)
+- **Layout**: Grid-based, aligned, balanced compositions
+- **Borders**: Thin, subtle borders (1px) or none at all. Prefer soft shadows over hard borders
+
+### Interaction Design
+- **Animations**: Subtle, smooth, purposeful (150-300ms typically)
+- **Hover States**: Minimal but noticeable (slight opacity change, subtle scale, or underline)
+- **Micro-interactions**: Delightful but understated
+- **Loading States**: Elegant skeleton screens or subtle spinners
+- **Transitions**: Use easing functions (ease-in-out, cubic-bezier)
+
+### Content Strategy
+- **Copy**: Concise, clear, confident but not arrogant
+- **Hierarchy**: Clear visual hierarchy guides the eye
+- **Imagery**: High-quality, purposeful images only. No stock photos
+- **Projects**: Show work that demonstrates product thinking, not just technical skill
+- **About**: Focus on impact and thinking process, not just skills list
+
+## Technical Standards
+
+### Code Quality
+- Write clean, semantic HTML
+- Use modern CSS (Flexbox, Grid, CSS Variables)
+- Prefer Tailwind utility classes following the design system
+- Component-based architecture (React/Next.js)
+- Mobile-first responsive design
+- Optimize for performance (lazy loading, image optimization)
+
+### Accessibility
+- Semantic HTML elements
+- Proper ARIA labels where needed
+- Keyboard navigation support
+- Sufficient color contrast ratios
+- Alt text for images
+
+### Performance
+- Optimize images (WebP, proper sizing)
+- Minimize JavaScript bundle size
+- Lazy load below-the-fold content
+- Use Next.js Image component
+- Fast initial page load (<2s)
+
+## Component Patterns
+
+### Preferred Patterns
+- Clean component composition
+- Reusable, atomic components
+- Consistent naming conventions
+- Props over configuration objects when possible
+- CSS modules or Tailwind for styling
+
+### Avoid
+- Over-engineering simple components
+- Excessive animations or visual noise
+- Dark patterns or aggressive CTAs
+- Cluttered layouts
+- Generic templated designs
+
+## Content Sections (Suggested)
+1. **Hero**: Strong, simple introduction
+2. **Work/Projects**: Showcase 3-5 best projects with case study approach
+3. **About**: Brief, compelling story
+4. **Contact**: Simple, accessible contact method
+5. **Optional**: Blog, Speaking, Side Projects
+
+## References for Inspiration
+- Linear.app - navigation, spacing, subtle animations
+- Harvey.AI - typography, color palette, professional tone
+- Stripe.com - documentation clarity, micro-interactions
+- Rauno.me - personal site with excellent taste
+- Paco.me - minimalist portfolio execution
+
+## Goals
+Every design decision should ask:
+1. Does this demonstrate good product taste?
+2. Is this minimal and refined?
+3. Would this impress a discerning recruiter?
+4. Does this show attention to detail?
+
+Remember: **Restraint is sophistication. Less is more.**
+
