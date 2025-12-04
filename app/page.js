@@ -18,7 +18,7 @@ const quizQuestions = [
           option: "B",
           text: "BlinkRx",
           correct: true,
-          explanation: "Yes! My first marketplace product (4-sided). A rocketship — we've grown 10x during my tenure. I've reported to the founder the entire time and have been mentored by one of Jeff Bezos' direct reports."
+          explanation: "Yes! My first marketplace product (4-sided). A rocketship — we've grown 7x during my tenure. I've reported to the founder the entire time and have been mentored by one of Jeff Bezos' direct reports."
         },
         {
           option: "C",
