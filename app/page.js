@@ -51,7 +51,7 @@ const quizQuestions = [
           option: "C",
           text: "$30k",
           correct: true,
-          explanation: "Through a Shopify store and vibe coding for clients I've generated $32k of revenue in my non-W9 internet career."
+          explanation: "Through a Shopify store and vibe coding for clients I've generated $32k of revenue in my non-W2 internet career."
         },
         {
           option: "D",
@@ -955,7 +955,7 @@ export default function Home() {
               
               {/* Subheading */}
               <p className="text-sm text-foreground mb-12 leading-relaxed">
-                i build things on the internet for my W9 & for fun
+                i build things on the internet for my W2 & for fun
               </p>
 
             
