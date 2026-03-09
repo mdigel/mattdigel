@@ -1045,70 +1045,32 @@ export default function Home() {
                   Thanks for playing! Check out what I&apos;m building.
                 </h2>
                 
-                {/* Products List */}
-                <ul className="space-y-4">
-                  <li className="flex items-start gap-3 group">
-                    <span className="text-gray-400 text-sm mt-0.5">•</span>
-                    <div className="flex flex-col gap-1">
-                      <div className="flex items-center gap-2 flex-wrap">
-                        <a 
-                          href="https://howmuchhousecaniafford.ai" 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="text-sm text-foreground hover:text-gray-600 transition-colors underline decoration-gray-300 hover:decoration-gray-500 underline-offset-2 inline-flex items-center gap-1"
-                        >
-                          How Much House Can I Afford.ai
-                          <svg
-                            width="12"
-                            height="12"
-                            viewBox="0 0 12 12"
-                            fill="none"
-                            className="inline-block"
-                          >
-                            <path
-                              d="M3 9L9 3M9 3H4.5M9 3V7.5"
-                              stroke="currentColor"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                        </a>
-                      </div>
-                      <p className="text-sm text-gray-500">
-                        An affordability calculator with an AI Assistant
-                      </p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-3 group">
-                    <span className="text-gray-400 text-sm mt-0.5">•</span>
-                    <div className="flex flex-col gap-1">
-                      <div className="flex items-center gap-2 flex-wrap">
-                        <span className="text-sm text-foreground">SwipeCardz</span>
-                        <span className="inline-flex items-center px-2 py-0.5 rounded text-xs text-blue-600 bg-blue-100 border border-blue-200">
-                          In Progress
-                        </span>
-                      </div>
-                      <p className="text-sm text-gray-500">
-                        Simple flash card iOS app that integrates with Google Sheets
-                      </p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-3 group">
-                    <span className="text-gray-400 text-sm mt-0.5">•</span>
-                    <div className="flex flex-col gap-1">
-                      <div className="flex items-center gap-2 flex-wrap">
-                        <span className="text-sm text-foreground">ZaVault</span>
-                        <span className="inline-flex items-center px-2 py-0.5 rounded text-xs text-blue-600 bg-blue-100 border border-blue-200">
-                          In Progress
-                        </span>
-                      </div>
-                      <p className="text-sm text-gray-500">
-                        Simple photo vault iOS app without a subscription fee
-                      </p>
-                    </div>
-                  </li>
-                </ul>
+                <a 
+                  href="https://plymouthapplabs.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-sm text-foreground hover:text-gray-600 transition-colors underline decoration-gray-300 hover:decoration-gray-500 underline-offset-2 inline-flex items-center gap-1"
+                >
+                  Plymouth App Labs
+                  <svg
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                    className="inline-block"
+                  >
+                    <path
+                      d="M3 9L9 3M9 3H4.5M9 3V7.5"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </a>
+                <p className="text-sm text-gray-500 mt-2">
+                  Premium utility iOS apps without monthly fees
+                </p>
               </div>
             </>
             ) : (
