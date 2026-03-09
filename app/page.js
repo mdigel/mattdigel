@@ -19,17 +19,17 @@ const quizQuestions = [
           option: "B",
           text: "BlinkRx",
           correct: true,
-          explanation: "Yes! My first marketplace product (4-sided). A rocketship — we've grown 7x during my tenure. I've reported to the founder the entire time and have been mentored by one of Jeff Bezos' direct reports."
+          explanation: "Yes! My first 4-sided marketplace product. A rocketship — we've grown 7x during my tenure, and I've reported directly to the founder the entire time."
         },
         {
           option: "C",
           text: "FabFitFun",
-          explanation: "Not quite. I did own the core experience which involved a gamified flash sale. We had 2M users signing on for these shopping events at the height of COVID. Fun times, but wasn't meant to last for me."
+          explanation: "Not quite. I owned the core experience, including a gamified flash sale that drove major traffic during the height of COVID. Fun experience, but not the long-term fit for me."
         },
         {
           option: "D",
           text: "Gonomic AI",
-          explanation: "This was my first startup. We tried to build an AI company before ChatGPT (insane). It was an AI-Enabled Mobile Application for the Ergonomic Assessment of Home Workspaces to help you improve your posture… a 'COVID employee benefit' was the thought. We shut it down when a co-founder got a Director gig at Amazon."
+          explanation: "This was my first startup. We tried to build an AI-enabled mobile application for ergonomic assessment of home workspaces before the current wave made that kind of product much more feasible. We shut it down when a co-founder took a Director role at Amazon."
         }
       ]
     },
@@ -51,12 +51,12 @@ const quizQuestions = [
           option: "C",
           text: "$30k",
           correct: true,
-          explanation: "Through a Shopify store and vibe coding for clients I've generated $32k of revenue in my non-W2 internet career."
+          explanation: "Through a Shopify store and freelance software work for clients, I've generated $32k in revenue outside of my W-2 career."
         },
         {
           option: "D",
           text: "$12k",
-          explanation: "I'm better than that!"
+          explanation: "A little more than that."
         }
       ]
     },
@@ -75,13 +75,13 @@ const quizQuestions = [
           option: "B",
           text: "Communication is the Job by Andrew Bosworth",
           url: "boz.com/articles/communication-is-the-job",
-          explanation: "A classic, but more about how to sound effective than how to be effective."
+          explanation: "A strong piece, but more about communication and leadership than the ownership mindset I most want people to internalize."
         },
         {
           option: "C",
           text: "Good Product Strategy, Bad Product Strategy by Shreyas Doshi",
           url: "medium.com/@shreyashere/good-product-strategy-bad-product-strategy-826cdfe74818",
-          explanation: "Great framework piece, but not the one I evangelize. More 'how to think,' less 'how to act.'"
+          explanation: "Great framework piece, though the one I point people to is more directly about action and ownership."
         },
         {
           option: "D",
@@ -136,7 +136,7 @@ const quizQuestions = [
         {
           option: "C",
           text: "React Native, Expo, Supabase",
-          explanation: "This is what I'd use for mobile — modern, fast iteration, and full-stack ready. Supabase handles backend and auth, Expo streamlines builds. But I haven't pursued mobile much yet."
+          explanation: "This is the stack I'd use for mobile projects when I want fast iteration and a full-stack path."
         },
         {
           option: "D",
