@@ -3,7 +3,6 @@
 import { useEffect, useState, useCallback, useMemo } from 'react';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import FirstLoadAnimation from '../components/FirstLoadAnimation';
-import TopNav from '../components/TopNav';
 import ProjectsList from '../components/ProjectsList';
 import featureFlags from '../config/features';
 
@@ -925,10 +924,9 @@ export default function Home() {
           25%, 75% { opacity: 0.2; }
         }
       `}</style>
-      <div className="relative min-h-screen flex flex-col">
-      <TopNav />
+      <div className="relative z-10 min-h-screen flex flex-col">
       {/* Header with Profile Image */}
-      <header className="w-full bg-white">
+      <header className="w-full">
         <div className="flex justify-center px-6 pt-32 pb-6">
           <div className="flex items-start max-w-2xl w-full">
             <img 
