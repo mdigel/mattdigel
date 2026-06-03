@@ -13,13 +13,13 @@ const quizQuestions = [
         {
           option: "A",
           text: "Nike",
-          explanation: "I did love it, but the slowness and tech as a second-class citizen eventually caused me to look elsewhere."
+          explanation: "I loved my time at Nike and learned a ton. Ultimately I was drawn to a smaller startup where I could move faster and have a larger, more direct impact."
         },
         {
           option: "B",
           text: "BlinkRx",
           correct: true,
-          explanation: "Yes! My first 4-sided marketplace product. A rocketship — we've grown 7x during my tenure, and I've reported directly to the founder the entire time."
+          explanation: "Yes! My first 4-sided marketplace product. A rocketship. We've grown 7x during my tenure, and I've reported directly to the founder the entire time."
         },
         {
           option: "C",
@@ -69,7 +69,7 @@ const quizQuestions = [
           text: "High Agency in 30 mins",
           url: "highagency.com",
           correct: true,
-          explanation: "Exactly. This is the mindset I want every PM to internalize — it's not about permission, it's about ownership, resourcefulness, and figuring it out anyway."
+          explanation: "Exactly. This is the mindset I want every PM to internalize. It's not about permission, it's about ownership, resourcefulness, and figuring it out anyway."
         },
         {
           option: "B",
@@ -87,7 +87,7 @@ const quizQuestions = [
           option: "D",
           text: "Distribution, by Ben Horowitz",
           url: "a16z.com/distribution",
-          explanation: "Worth reading, but focused on scale and GTM — not the core of personal agency or ownership."
+          explanation: "Worth reading, but focused on scale and GTM, not the core of personal agency or ownership."
         }
       ]
     },
@@ -99,12 +99,12 @@ const quizQuestions = [
           option: "A",
           text: "What is the user really trying to do? What is the user feeling?",
           correct: true,
-          explanation: "The north star. Everything else — metrics, features, optics — follows from this."
+          explanation: "The north star. Everything else, metrics, features, optics, follows from this."
         },
         {
           option: "B",
           text: "How can we make this simpler without losing impact?",
-          explanation: "Always on my mind, but simplicity is a tactic — not the foundation."
+          explanation: "Always on my mind, but simplicity is a tactic, not the foundation."
         },
         {
           option: "C",
@@ -114,7 +114,7 @@ const quizQuestions = [
         {
           option: "D",
           text: "How do I make this feel like their idea so it actually gets approved?",
-          explanation: "Painfully real. The political calculus every PM secretly does — but not exactly the soul of product thinking."
+          explanation: "Painfully real. The political calculus every PM secretly does, but not exactly the soul of product thinking."
         }
       ]
     },
@@ -126,7 +126,7 @@ const quizQuestions = [
           option: "A",
           text: "React, Next.js, Supabase (Postgres), Vercel",
           correct: true,
-          explanation: "Yup — my happy place. Fast, modern, and perfect for full-stack MVPs with velocity. Supabase for auth/db, Vercel for deploys, and Cursor for flow."
+          explanation: "Yup, my happy place. Fast, modern, and perfect for full-stack MVPs with velocity. Supabase for auth/db, Vercel for deploys, and Cursor for flow."
         },
         {
           option: "B",
@@ -1045,9 +1045,9 @@ export default function Home() {
                   Thanks for playing! Check out what I&apos;m building.
                 </h2>
                 
-                <a 
-                  href="https://plymouthapplabs.com" 
-                  target="_blank" 
+                <a
+                  href="https://plymouthapplabs.com"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-foreground hover:text-gray-600 transition-colors underline decoration-gray-300 hover:decoration-gray-500 underline-offset-2 inline-flex items-center gap-1"
                 >
@@ -1068,8 +1068,45 @@ export default function Home() {
                     />
                   </svg>
                 </a>
-                <p className="text-sm text-gray-500 mt-2">
+                <p className="text-sm text-gray-500 mt-2 mb-6">
                   Premium utility iOS apps without monthly fees
+                </p>
+
+                <a
+                  href="https://www.get5lbcoffee.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-foreground hover:text-gray-600 transition-colors underline decoration-gray-300 hover:decoration-gray-500 underline-offset-2 inline-flex items-center gap-1"
+                >
+                  5lb Coffee
+                  <svg
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                    className="inline-block"
+                  >
+                    <path
+                      d="M3 9L9 3M9 3H4.5M9 3V7.5"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </a>
+                <p className="text-sm text-gray-500 mt-2 mb-6">
+                  Bulk specialty coffee, shipped fresh
+                </p>
+
+                <p className="text-sm text-gray-500">
+                  Want to connect?{' '}
+                  <a
+                    href="mailto:digel.matt@gmail.com"
+                    className="text-foreground hover:text-gray-600 transition-colors underline decoration-gray-300 hover:decoration-gray-500 underline-offset-2"
+                  >
+                    digel.matt@gmail.com
+                  </a>
                 </p>
               </div>
             </>
