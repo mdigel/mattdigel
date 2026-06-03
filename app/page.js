@@ -3,6 +3,8 @@
 import { useEffect, useState, useCallback, useMemo } from 'react';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import FirstLoadAnimation from '../components/FirstLoadAnimation';
+import TopNav from '../components/TopNav';
+import ProjectsList from '../components/ProjectsList';
 import featureFlags from '../config/features';
 
 const quizQuestions = [
@@ -923,7 +925,8 @@ export default function Home() {
           25%, 75% { opacity: 0.2; }
         }
       `}</style>
-      <div className="min-h-screen flex flex-col">
+      <div className="relative min-h-screen flex flex-col">
+      <TopNav />
       {/* Header with Profile Image */}
       <header className="w-full bg-white">
         <div className="flex justify-center px-6 pt-32 pb-6">
@@ -1045,59 +1048,7 @@ export default function Home() {
                   Thanks for playing! Check out what I&apos;m building.
                 </h2>
                 
-                <a
-                  href="https://plymouthapplabs.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-foreground hover:text-gray-600 transition-colors underline decoration-gray-300 hover:decoration-gray-500 underline-offset-2 inline-flex items-center gap-1"
-                >
-                  Plymouth App Labs
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="none"
-                    className="inline-block"
-                  >
-                    <path
-                      d="M3 9L9 3M9 3H4.5M9 3V7.5"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </a>
-                <p className="text-sm text-gray-500 mt-2 mb-6">
-                  Premium utility iOS apps without monthly fees
-                </p>
-
-                <a
-                  href="https://www.get5lbcoffee.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-foreground hover:text-gray-600 transition-colors underline decoration-gray-300 hover:decoration-gray-500 underline-offset-2 inline-flex items-center gap-1"
-                >
-                  5lb Coffee
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="none"
-                    className="inline-block"
-                  >
-                    <path
-                      d="M3 9L9 3M9 3H4.5M9 3V7.5"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </a>
-                <p className="text-sm text-gray-500 mt-2 mb-6">
-                  Bulk specialty coffee, shipped fresh
-                </p>
+                <ProjectsList />
 
                 <p className="text-sm text-gray-500">
                   Want to connect?{' '}
