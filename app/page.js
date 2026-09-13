@@ -956,7 +956,7 @@ export default function Home() {
               
               {/* Subheading */}
               <p className="text-sm text-foreground mb-12 leading-relaxed">
-                i build things on the internet for my W2 & for fun
+                product leader. internet tinkerer.
               </p>
 
             

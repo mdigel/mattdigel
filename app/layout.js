@@ -15,16 +15,16 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Matt Digel",
-  description: "i build things on the internet for my W9 & for fun",
+  description: "product leader. internet tinkerer.",
   openGraph: {
     title: "Matt Digel",
-    description: "i build things on the internet for my W9 & for fun",
+    description: "product leader. internet tinkerer.",
     images: ['/opengraph-image.png'],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Matt Digel",
-    description: "i build things on the internet for my W9 & for fun",
+    description: "product leader. internet tinkerer.",
     images: ['/opengraph-image.png'],
   },
 };
