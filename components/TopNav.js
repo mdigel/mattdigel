@@ -7,6 +7,7 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react
 const items = [
   { label: 'Home', href: '/', external: false },
   { label: 'Projects', href: '/projects', external: false },
+  { label: 'Writing Samples', href: '/writing-samples', external: false },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/matt-digel/', external: true },
 ];
 
@@ -16,7 +17,12 @@ const GRADIENT =
 
 export default function TopNav() {
   const pathname = usePathname();
-  const activeIndex = items.findIndex((it) => !it.external && it.href === pathname);
+  // Nested pages (e.g. a single writing sample) keep their section underlined.
+  const activeIndex = items.findIndex(
+    (it) =>
+      !it.external &&
+      (it.href === pathname || (it.href !== '/' && pathname.startsWith(`${it.href}/`)))
+  );
   const navRef = useRef(null);
   const itemRefs = useRef([]);
   const [indicator, setIndicator] = useState({ left: 0, width: 0, visible: false });
