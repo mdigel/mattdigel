@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { samples } from './samples';
 
 export const metadata = {
-  title: 'Writing Samples — Matt Digel',
+  title: 'Writing — Matt Digel',
   description: 'Memos and other things I have written.',
 };
 
@@ -11,7 +11,7 @@ export default function WritingSamplesPage() {
     <div className="relative z-10 min-h-screen flex flex-col">
       <main className="flex-1 flex flex-col items-center justify-start px-6 pt-32 pb-20">
         <div className="max-w-2xl w-full">
-          <h1 className="text-sm font-normal mb-6 leading-relaxed">Writing Samples</h1>
+          <h1 className="text-sm font-normal mb-6 leading-relaxed">Writing</h1>
           <ul>
             {samples.map((sample) => (
               <li key={sample.slug} className="mb-6">

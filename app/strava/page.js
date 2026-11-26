@@ -1,7 +1,7 @@
 import { readCachedStats } from '../../lib/strava';
 
 export const metadata = {
-  title: 'Running — Matt Digel',
+  title: 'Strava — Matt Digel',
   description: 'Selected Strava run stats.',
 };
 
@@ -60,7 +60,7 @@ function Stat({ label, value, unit }) {
   );
 }
 
-export default async function RunningPage() {
+export default async function StravaPage() {
   const stats = await readCachedStats();
   const hasData = Boolean(stats.syncedAt && stats.totals);
   const ytd = stats.totals?.ytd;
@@ -71,7 +71,7 @@ export default async function RunningPage() {
     <div className="relative z-10 min-h-screen flex flex-col">
       <main className="flex-1 flex flex-col items-center justify-start px-6 pt-32 pb-20">
         <div className="max-w-2xl w-full">
-          <h1 className="text-sm font-normal mb-2 leading-relaxed">Running</h1>
+          <h1 className="text-sm font-normal mb-2 leading-relaxed">Strava</h1>
           <p className="text-sm text-gray-500 mb-10 leading-relaxed">
             A quiet look at time on feet — synced from Strava.
           </p>

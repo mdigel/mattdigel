@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Strava stats
 
-The `/running` page shows cached Strava run stats from `data/strava-stats.json` (no database).
+The `/strava` page shows cached Strava run stats from `data/strava-stats.json` (no database).
 
 ```bash
 # after setting STRAVA_* env vars in .env.local

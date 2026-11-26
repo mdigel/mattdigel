@@ -169,7 +169,7 @@ export default function ScalingTheProductOrgPage() {
             href="/writing-samples"
             className="inline-block text-sm text-gray-500 hover:text-foreground transition-colors mb-8"
           >
-            <span aria-hidden>←</span> Writing Samples
+            <span aria-hidden>←</span> Writing
           </Link>
           <header className="mb-12">
             <h1 className="text-xl font-medium tracking-tight leading-snug text-balance mb-3">
