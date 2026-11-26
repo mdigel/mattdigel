@@ -8,6 +8,7 @@ const items = [
   { label: 'Home', href: '/', external: false },
   { label: 'Projects', href: '/projects', external: false },
   { label: 'Writing Samples', href: '/writing-samples', external: false },
+  { label: 'Running', href: '/running', external: false },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/matt-digel/', external: true },
 ];
 

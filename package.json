@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync:strava": "node scripts/sync-strava.mjs"
   },
   "dependencies": {
     "@lottiefiles/dotlottie-react": "^0.17.5",
