@@ -1,5 +1,16 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Strava stats
+
+The `/strava` page shows cached Strava run stats from `data/strava-stats.json` (no database).
+
+```bash
+# after setting STRAVA_* env vars in .env.local
+npm run sync:strava
+```
+
+See the project setup doc for OAuth + env details (linked from the PR / agent notes).
+
 ## Getting Started
 
 First, run the development server:
